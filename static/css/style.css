@@ -1,0 +1,180 @@
+h1 {
+    font-size: 22pt;
+    font-family:  "Times New Roman";
+    color: #111;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-family:  "Times New Roman";
+    margin-left: 50px;
+    min-width: 300px;
+    max-width: 800px;
+    text-align: justify;
+}
+
+p a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+img {
+    float: left;
+    margin-right: 100px;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+
+ul {
+    font-family:  "Times New Roman";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    position: fixed;
+}
+
+p.firma{
+    overflow: auto;
+    margin-left: 100px;
+    color: #333333;
+    font-weight: bold;
+
+}
+
+select{
+    float: none;
+}
+
+li a {
+
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #1e497c;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.cuerpo {
+    min-width: 1000px;
+    margin-left:200px;
+    padding:30px 30px;
+    /*height:1000px;*/
+}
+
+body{
+    font-family: "Times New Roman";
+    margin: 0;
+}
+
+
+rect.bordered {
+    stroke: #E6E6E6;
+    stroke-width:2px;
+}
+
+text.mono {
+    font-size: 10pt;
+    font-family: sans-"Times New Roman", courier;
+    fill: #0a0202;
+}
+
+select {
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+}
+
+#map { height: 600px;
+    width: 600px;}
+
+
+
+
+
+    #circle circle {
+        fill: none;
+        pointer-events: all;
+    }
+
+    .group path {
+        fill-opacity: .5;
+    }
+
+    path.chord {
+        stroke: #000;
+        stroke-width: .25px;
+    }
+
+    #circle:hover path.fade {
+        display: none;
+    }
+
+
+    .ticks {
+        font: 10px sans-"Times New Roman";
+    }
+
+    .track,
+    .track-inset,
+    .track-overlay {
+        stroke-linecap: round;
+    }
+
+    .track {
+        stroke: #000;
+        stroke-opacity: 0.3;
+        stroke-width: 10px;
+    }
+
+    .track-inset {
+        stroke: #ddd;
+        stroke-width: 8px;
+    }
+
+    .track-overlay {
+        pointer-events: stroke;
+        stroke-width: 50px;
+        stroke: transparent;
+        cursor: crosshair;
+    }
+
+    .track-overlay {
+        pointer-events: stroke;
+        stroke-width: 50px;
+        stroke: transparent;
+        cursor: crosshair;
+    }
+
+    .handle {
+        fill: #fff;
+        stroke: #000;
+        stroke-opacity: 0.5;
+        stroke-width: 1.25px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #chord{
+        padding: 30px;
+    }
