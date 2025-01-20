@@ -1,9 +1,9 @@
 // dataset: graphData
 var graphData;
-d3.json("/data/chart_data_MH.json", function(data) {
+d3.json("/montreal_bikes_ussage/data/chart_data_MH.json", function(data) {
     graphData = data;
     var graphData2;
-    d3.json("/data/chart_data2_MH.json", function(data) {
+    d3.json("/montreal_bikes_ussage/data/chart_data2_MH.json", function(data) {
         graphData2 = data;
 
         var data = [];

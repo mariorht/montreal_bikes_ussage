@@ -1,7 +1,7 @@
-d3.json("/data/chart_data_SH.json", function(data) {
+d3.json("/montreal_bikes_ussage/data/chart_data_SH.json", function(data) {
     graphData = data;
     var graphData2;
-    d3.json("/data/chart_data2_SH.json", function(data) {
+    d3.json("/montreal_bikes_ussage/data/chart_data2_SH.json", function(data) {
         graphData2 = data;
 
 // dataset: graphData

@@ -1,7 +1,7 @@
-d3.json("/data/chart_data_HTM.json", function(data) {
+d3.json("/montreal_bikes_ussage/data/chart_data_HTM.json", function(data) {
     graphData = data;
     var graphData2;
-    d3.json("/data/chart_data2_HTM.json", function(data) {
+    d3.json("/montreal_bikes_ussage/data/chart_data2_HTM.json", function(data) {
         graphData2 = data;
 
 
